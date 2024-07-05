@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating a form</title>
+    <style>
+        label{
+            display: block;
+            margin: 8px;
+            width: 500px;
+            background-color: rgb(35, 148, 148);
+        }
+        #submit {
+            width: none;
+            
+           
+        }
+    </style>
+    <link rel="stylesheet" href="styels/nav.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="video.html">video</a></li>
+        <li><a href="form.html">form</a></li>
+        <li><a href="table.html">Tale</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <form>
+                <label  for="name">Your Name:
+                    <input id="name" placeholder="your name" type="text">
+                </label>
+                <label for="email">Your Email:
+                    <input id="email" placeholder="Inter Your Email" type="email">
+                </label>
+                <fieldset><legend>pick one book</legend>
+                    <label for="chitra nodir par">
+                        <input type="radio" id="chitra nodir par" name="Chokar Bali">'chitra nodir par'
+                    </label>
+                    <label for="Chokar Bali">
+                        <input type="radio" id="Chokar bale" name="Chokar Bali">'Chokar Bali'
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>pick more then one Author</legend>
+                    <label for="Authors">
+                        <input type="checkbox" id="Robnindronat" name="Robnindronat">Robnindronat
+                        <input type="checkbox" id="Nozrul islam" name="Nozrul islam">Nozrul islam
+                        <input type="checkbox" id="Humayon Ahmad" name="Humayon Ahmad">Humayon Ahmad
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Spacial Instruction</legend>
+                    <textarea name="" id="" cols="75" rows="7" > </textarea>
+                    <fieldset>
+                        <input type="reset" value="Reset">
+                        <label  for="submit">
+                            <input type="submit" id="submit" name="Submit">
+                        </label>
+                    </fieldset>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        h3{
+            text-align: center;
+            background-color: rgba(137, 43, 226, 0.532);
+        }
+    </style>
+    <link rel="stylesheet" href="styels/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="video.html">video</a></li>
+            <li>
+                <a href="form.html">form</a>
+                <ul class="dropdown">
+                    <nav>
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="table.html">Tale</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </nav>
+                </ul>
+            </li>
+            <li><a href="table.html">Tale</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>HTML Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>no</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>bill gets</td>
+                    <td>micro-soft</td>
+                    <td>$1000</td>
+                </tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>apple</td>
+                <td>$1200</td>
+                </tr>
+                <td>3</td>
+                <td>elone mask</td>
+                <td>space X</td>
+                <td>$1100</td>
+                <tr>
+                    <td>4</td>
+                    <td>jev bazzoj</td>
+                    <td>amazon.com</td>
+                    <td>$1500</td>
+                </tr>
+    
+            </tbody>
+            <tfoot>
+    
+            </tfoot>
+        </table>
+        <ul>
+            <li>table: Table</li>
+            <li>table head: thead</li>
+            <li>table body: tbody</li>
+            <li>table footer: tfoot</li>
+            <li>table raw:tr</li>
+            <li>table data or cell:td</li>
+            <li>table head:th</li>
+    
+    
+        </ul>
+        <button title="Please click me">Click me</button>
+        <button disabled>Click me</button>
+        <input type="number" max="10" min="1" name="" id="">
+    </main>
+</body>
+
+</html>
